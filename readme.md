@@ -28,7 +28,6 @@ Built with *Node.js, Express.js, MongoDB, and EJS*, it replicates the core featu
 1. Clone the repository:
    bash
    git clone https://github.com/rajputalok/staypoint.git
-   cd staypoint
 
 2. Install dependencies:
 
