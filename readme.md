@@ -1,70 +1,56 @@
-# 🏡 StayPoint – Airbnb Clone
+# 🏠 StayPoint – Airbnb Clone (Full Stack)
 
-StayPoint is a *full-stack Airbnb clone* built with *Node.js, Express.js, MongoDB, and EJS*.  
+StayPoint is a *full-stack clone of Airbnb* designed for property listings, bookings, and user authentication.  
+Built with *Node.js, Express.js, MongoDB, and EJS*, it replicates the core features of a modern rental platform.
 
-## 🚀 Features
+---
 
-- 🔐 User authentication (signup, login, logout)
-- 🏘 Property listing and management
-- 🌐 RESTful API structure
-- 🎨 EJS templating for dynamic views
-- 🛡 Secure password handling
-- 📦 MVC project architecture
+## ✨ Features
+- 🏡 User authentication (signup, login, sessions)
+- 📍 Map integration with API key for property locations
+- ☁ Cloud storage for image uploads
+- 🔍 Search functionality for listings
+- 📱 Responsive UI with EJS templating
+- MVC framework
 
--------------------
+---
 
 ## 🛠 Tech Stack
+- *Frontend*: HTML, CSS, JavaScript, EJS
+- *Backend*: Node.js, Express.js, Restful API's
+- *Database*: MongoDB (Atlas)
+- *APIs*: Map API, Cloud Storage API
 
-- *Frontend:* HTML, CSS, JavaScript, EJS  
-- *Backend:* Node.js, Express.js, Restful API's
-- *Database:* MongoDB  
-- *Version Control:* Git & GitHub  
-- *Deployment:* Render (or other platforms)  
-
--------------------
+---
 
 ## ⚙ Installation & Setup
 
 1. Clone the repository:
    bash
-   git clone https://github.com/your-username/staypoint.git
+   git clone https://github.com/rajputalok/staypoint.git
    cd staypoint
 
 2. Install dependencies:
 
-npm install 
+npm install
 
-
-3. Create a .env file in the root directory:
+3. Create a .env file in the root directory and add:
 
 MONGO_URI=your_mongodb_connection_string
 SESSION_SECRET=your_secret_key
-MAP_API_KEY=your_geoapify_or_google_maps_api_key
+MAP_API_KEY=your_mapbox_or_google_maps_api_key
 CLOUD_API_KEY=your_cloud_storage_api_key
 
-
-4. Run the app:
+4. Start the app:
 
 node app.js
 
-
-5. Open in browser:
+5. Open in your browser:
 
 http://localhost:8080/listings
 
----------------------
+---
 
-🔮 Future Improvements
-
-💳 Payment gateway integration
-
-🔍 Advanced search & filters
-
-🚀 Deployment with CI/CD pipeline
-
----------------------
-
-👤 Author
+👨‍💻 Author
 
 Alok Kumar Singh
-
