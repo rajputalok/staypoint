@@ -130,3 +130,20 @@ body{
 #suggestions div:hover {
   background: #f0f0f0;
 }
+
+/* Mobile view adjustments */
+@media (max-width: 768px) {
+  .listing-card {
+    width: 100% !important;
+    margin-bottom: 15px;
+  }
+
+  .navbar {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .container {
+    padding: 10px;
+  }
+}
